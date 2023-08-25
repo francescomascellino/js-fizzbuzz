@@ -4,8 +4,44 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FizzBuzz</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous">
+
+        <style>
+                .col {
+                    max-width: 5rem;
+                    height: 5rem;
+                }
+            </style>
+
     </head>
     <body>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="card mt-3">
+
+                    <div
+                        class="card-body d-flex flex-wrap justify-content-center row-cols-5">
+
+                        <div
+                            class="col border rounded-1 d-flex align-items-center justify-content-center fw-bold p-2 m-2">
+                            FizzBuzz
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
 
         <script type="text/javascript" src="./assets/js/main.js"></script>
     </body>
