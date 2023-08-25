@@ -1,0 +1,17 @@
+.col {
+    max-width: 5rem;
+    height: 5rem;
+    background-color: orange;
+}
+
+.fizzBuzz {
+    background-color: yellowgreen;
+}
+
+.fizz {
+    background-color: royalblue;
+}
+
+.buzz {
+    background-color: violet;
+}
