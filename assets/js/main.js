@@ -12,7 +12,7 @@ for (let i = 1; i <= 100; i++)
 
 
     if (i % 15 === 0) {
-        const fizzBuzzValue = "FizzBuzz";
+        const fizzBuzzValue = "fizzBuzz";
         console.log(fizzBuzzValue);
 
         const fizzBlock = `<div
@@ -25,11 +25,11 @@ class="col border rounded-1 d-flex align-items-center justify-content-center fw-
     } 
 
     else if (i % 3 === 0) {
-        const fizzBuzzValue = "Fizz";
+        const fizzBuzzValue = "fizz";
         console.log(fizzBuzzValue);
 
         const fizzBlock = `<div
-        class="col border rounded-1 d-flex align-items-center justify-content-center fw-bold p-2 m-2 ${fizzBuzzValue}">
+        class="col border rounded-1 d-flex align-items-center justify-content-center fw-bold p-2 m-2  text-capitalize ${fizzBuzzValue}">
         <span>${fizzBuzzValue}</span>
         </div>`;
         
@@ -38,11 +38,11 @@ class="col border rounded-1 d-flex align-items-center justify-content-center fw-
     }
 
     else if (i % 5 === 0) {
-        const fizzBuzzValue = "Buzz";
+        const fizzBuzzValue = "buzz";
         console.log(fizzBuzzValue);
 
         const fizzBlock = `<div
-        class="col border rounded-1 d-flex align-items-center justify-content-center fw-bold p-2 m-2 ${fizzBuzzValue}">
+        class="col border rounded-1 d-flex align-items-center justify-content-center fw-bold p-2 m-2  text-capitalize ${fizzBuzzValue}">
         <span>${fizzBuzzValue}</span>
         </div>`;
 
