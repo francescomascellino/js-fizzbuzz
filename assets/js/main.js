@@ -16,7 +16,7 @@ for (let i = 1; i <= 100; i++)
         console.log(fizzBuzzValue);
 
         const fizzBlock = `<div
-class="col border rounded-1 d-flex align-items-center justify-content-center fw-bold p-2 m-2 ${fizzBuzzValue}">
+class="col border rounded-1 d-flex align-items-center justify-content-center fw-bold p-2 m-2  text-capitalize ${fizzBuzzValue}">
 <span>${fizzBuzzValue}</span>
 </div>`;
 
