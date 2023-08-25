@@ -68,7 +68,8 @@ class="col border rounded-1 d-flex align-items-center justify-content-center fw-
         <span>${fizzBuzzValue}</span>
         </div>`;
 
-        fizzBuzzGrid.innerHTML += fizzBlock;
+        // fizzBuzzGrid.innerHTML += fizzBlock;
+        fizzBuzzGrid.insertAdjacentHTML("beforeend", fizzBlock);
 
     }
 }
