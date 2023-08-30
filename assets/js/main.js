@@ -1,6 +1,6 @@
 /* Consegna:
 Scrivi un programma che stampi in console i numeri da 1 a 100, ma che:
- per i multipli di 3 stampi “Fizz” al posto del numero
+per i multipli di 3 stampi “Fizz” al posto del numero
 e per i multipli di 5 stampi “Buzz”.
 Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 Prima di partire a scrivere codice poniamoci qualche domanda:
@@ -17,8 +17,7 @@ Buon lavoro e buon divertimento! confermate lettura come al solito */
 
 const fizzBuzzGrid = document.getElementById("fizzBuzzGrid");
 
-for (let i = 1; i <= 100; i++) 
-{
+for (let i = 1; i <= 100; i++) {
 
     if (i % 15 === 0) {
         const fizzBuzzValue = "fizzBuzz";
@@ -31,7 +30,7 @@ class="col border rounded-1 d-flex align-items-center justify-content-center fw-
 
         fizzBuzzGrid.innerHTML += fizzBlock;
 
-    } 
+    }
 
     else if (i % 3 === 0) {
         const fizzBuzzValue = "fizz";
@@ -41,7 +40,7 @@ class="col border rounded-1 d-flex align-items-center justify-content-center fw-
         class="col border rounded-1 d-flex align-items-center justify-content-center fw-bold p-2 m-2  text-capitalize ${fizzBuzzValue}">
         <span>${fizzBuzzValue}</span>
         </div>`;
-        
+
         fizzBuzzGrid.innerHTML += fizzBlock;
 
     }
@@ -73,3 +72,19 @@ class="col border rounded-1 d-flex align-items-center justify-content-center fw-
 
     }
 }
+
+/* APPEND
+    function myFunction() 
+{
+    // Create an "li" node:
+    const node = document.createElement("li");
+    
+    / Create a text node:
+    const textnode = document.createTextNode("Water");
+
+    // Append the text node to the "li" node:
+    node.appendChild(textnode);
+
+    // Append the "li" node to the list:
+    document.getElementById("myList").appendChild(node);
+} */
